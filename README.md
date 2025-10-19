@@ -4,9 +4,10 @@
 
 This project focuses on predicting house prices using real-world housing data. The main objective is to understand how different factors such as average income, number of rooms, house age, and area population influence property prices.
 
-The project follows a complete machine learning workflow, starting from data exploration and preprocessing to model training, evaluation, and comparison. Multiple regression techniques have been implemented, including Linear Regression, Ridge, Lasso, and Random Forest models, to identify which method provides the most accurate predictions.
+The project follows a complete **machine learning workflow**, starting from data exploration and preprocessing to model training and evaluation.
+A **Linear Regression** model has been implemented to establish the relationship between input features and the target variable (house price).
 
-Through this work, I aimed to build a practical understanding of data analysis and predictive modeling, as well as to demonstrate how data-driven insights can be used for better decision-making in real estate and related fields.
+Through this work, I aimed to build a strong foundation in data analysis and regression modeling, and to explore how mathematical ideas can be applied to real-world decision-making in the housing market.
 
 ---
 
@@ -28,35 +29,30 @@ The dataset contains information about housing and demographic factors that may 
 
 ---
 
-## Models Implemented
+## Model Implemented
 
-* Linear Regression
-* Ridge Regression
-* Lasso Regression
-* Random Forest Regressor
+* **Linear Regression**
 
-Each model was trained and evaluated to compare predictive performance using R² and Mean Squared Error (MSE) metrics.
+The Linear Regression model was trained using Scikit-learn to identify how each feature contributes to the target price. Model performance was evaluated using **R²** and **Mean Squared Error (MSE)** metrics.
 
 ---
 
 ## Results Summary
 
-| Model             | R² Score | Cross-Validation Score |
-| ----------------- | -------- | ---------------------- |
-| Linear Regression | 0.92     | 0.91                   |
-| Ridge Regression  | 0.92     | 0.91                   |
-| Lasso Regression  | 0.91     | 0.90                   |
-| Random Forest     | 0.97     | 0.96                   |
+| Metric                   | Value                   |
+| ------------------------ | ----------------------- |
+| R² Score                 | 0.92                    |
+| Mean Squared Error (MSE) | (depends on data split) |
 
-*(Values may vary slightly depending on random state and data split.)*
+*(Values may slightly vary depending on random state and data split.)*
 
 ---
 
 ## Key Insights
 
-* Average income and the number of rooms are the most influential factors in predicting house prices.
-* Regularized models like Ridge and Lasso help control overfitting, while ensemble methods such as Random Forest provide higher accuracy.
-* Proper data preprocessing and feature scaling significantly improve model performance.
+* Average income and number of rooms show strong positive correlation with house prices.
+* The Linear Regression model performs well in explaining price variations.
+* Data preprocessing and feature selection play a major role in improving model accuracy.
 
 ---
 
@@ -67,6 +63,16 @@ Each model was trained and evaluated to compare predictive performance using R²
 * Matplotlib, Seaborn
 * Scikit-learn
 * Jupyter Notebook
+
+---
+
+## Future Improvements
+
+In future updates, I plan to:
+
+* Experiment with **Ridge**, **Lasso**, and **Random Forest** models for performance comparison.
+* Add **cross-validation** and **feature scaling** steps.
+* Visualize model coefficients and residuals for deeper insights.
 
 ---
 
