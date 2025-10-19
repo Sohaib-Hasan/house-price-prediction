@@ -1,8 +1,3 @@
-Perfect ✅ — yah version **direct GitHub README editor** (without extra markdown styling issues) ke liye ready hai.
-Bas **copy–paste** kar do, formatting automatically sahi show hogi:
-
----
-
 # House Price Prediction
 
 ## About This Project
@@ -80,7 +75,3 @@ Each model was trained and evaluated to compare predictive performance using R²
 **Sohaib Hasan**
 Machine Learning Enthusiast | Mathematics Lecturer
 **LinkedIn:** [https://www.linkedin.com/in/sohaibhassan05/](https://www.linkedin.com/in/sohaibhassan05/)
-
----
-
-Yeh version GitHub ke **“Edit README.md”** section me paste karoge to automatic headings, tables, aur bold text properly format ho jayenge — bina kisi extra symbol ya AI-style tone ke.
